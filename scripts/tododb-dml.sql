@@ -1,0 +1,1 @@
+CREATE TABLE `tododb`.`tarea` ( `id` INT NOT NULL AUTO_INCREMENT , `descripcion` VARCHAR(200) NOT NULL , `fecha_limite` DATE NOT NULL , `realizada` BOOLEAN NOT NULL , `fecha_realizada` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
